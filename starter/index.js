@@ -86,3 +86,67 @@ var finances = [
 ['Jan-2017', 138230],
 ['Feb-2017', 671099]
 ];
+
+console.log("Financial Analysis")
+console.log("Total Months: " + finances.length)
+
+console.log(finances[1]);
+
+let subFinances = finances[1];
+console.log(subFinances)
+/*
+var sum = 0
+
+for(let i = 0; i < finances.length; i++) {
+    sum += finances[i]
+}
+
+
+console.log(sumOfAll)
+var total = Array.keys(finances)
+var totalFinances = 0;
+for (var i = 0; i < total.length; i = i + 1) {
+    totalFinances = totalFinances + finances[i]
+}
+
+console.log("Total: $" + totalFinances)
+
+
+function calculateSum(finances) {
+    let total = 0;
+
+    for (const value of array) {
+        total += value;
+    }
+
+    return total;
+}
+let total = 0;
+
+finances.forEach(month => {
+    total += item.string
+})
+
+function sumOfMonths(numbersMonths) {
+    let total = 0;
+
+    for (let number of numbersMonths) {
+        total += number;
+    }
+
+    return total;
+}
+
+function monthDifference('Jan-2010', 'Feb-2017') {
+    return (
+        endDate.getMonth() -
+        startDate.getMonth() +
+        12 * (endDate.getFullYear() - startDate.getFullYear())
+    );
+}
+
+console.log(getMonthDifference(
+    new Date('Jan-2010'), new Date('Feb-2017'))
+);
+
+*/
